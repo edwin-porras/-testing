@@ -1,0 +1,93 @@
+*{
+			padding: 5px;
+			border:0px;
+			margin: 0px;
+
+		}
+		body{
+			background: linear-gradient(#4DA6FF,#C4C6C8);
+			
+		}
+	#aa{
+         padding: 0px;
+         padding-left: 50px;
+		}
+		#ee{
+text-align: center;
+		font-size: 45px;
+		padding-top: 15px; 
+	    color : #E6E8EA;
+	    font-family:"Ravie";
+	    padding-left: 120px;
+		
+		}
+		section{
+		height: 130px;
+		background: #0068CA;
+		
+	    border-radius: 15px 15px 0px 0px;
+	    display: flex;
+	}
+	section:hover {
+		color: #D2D2D2
+	}
+		nav ul{
+			list-style: none;
+       	display: flex;
+
+        margin: auto;
+
+			
+		}
+       ul > li > a
+       {
+       	padding-right: 120px;
+        list-style: none;
+        text-decoration: none;
+        padding-left: 110px;
+        font-size: 18px;
+        color: #fff;
+        background:#C60808 ;
+        font-family: "arial black"
+       }
+       nav{
+       	background:#0083FF ;
+       	height: 50px;
+width: 1322px;
+        margin: auto;
+
+       	display: flex;
+
+       }
+       ul > li > a:hover{
+	color: #ADADB2
+}
+
+#er{
+	width: 640px;
+	background: linear-gradient(#4784E3,#B1CFFF);
+	border-radius:0px 0px 20px 20px;
+font-family: "arial black";
+color: white;
+}
+#ast{
+	color:white;
+	font-size: 25px;
+	height: 50px;
+	padding-top: 5px;
+	text-align: center;
+	padding-left: 25px;
+}
+#ubicacion{
+	display: flex;
+}
+#Formulario{
+	width: 50%;
+
+}
+#ubi{
+	width: 50%;
+	font-size: 35px;
+	color: white;
+	font-family: "arial black"
+}

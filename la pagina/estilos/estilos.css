@@ -1,0 +1,188 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+			background: linear-gradient(#4DA6FF,#252525);
+	
+
+}
+
+#est{
+	padding: 25px;
+height: 700px;
+}
+
+#c{
+	color:white;
+	list-style: none;
+	margin-top: 10px;
+	padding: 15px;
+	padding-top: 10px;
+
+}
+
+.slider{
+	width: 95%;
+	margin:auto;
+	overflow:hidden;
+	padding-top: 65px;
+}
+
+.slider ul {
+	padding: 0;
+	display: flex;
+	width: 400%;
+	animation: cambio 20s infinite alternate linear;
+	
+}
+
+
+.slider li{
+	list-style: none;
+	width: 100%;
+
+}
+.slider img{
+	width: 100%;
+	height: 500px;
+}
+
+
+@keyframes cambio{
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+
+
+}
+#d{
+	background: black;
+	color: white;
+	border-radius: 40px 20px 40px 20px;
+	border:  4px orange solid;
+	list-style: none;
+	height: 150px;
+	width: 30%;
+	text-align: justify;
+	padding: 15px;
+	padding-top: 18px;
+			font-family: "Calibri"
+			
+	
+
+}
+#e{
+	background: black;
+	color: white;
+	border-radius: 25px 15px 25px 15px;
+	border:  4px orange solid;
+	list-style: none;
+	height: 220px;
+	width: 30%;
+	text-align: justify;
+	padding: 15px;
+	padding-top: 22px;
+margin: auto;
+			font-family: "Calibri"
+			
+
+}
+#f{
+	background: black;
+	color: white;
+	border-radius: 25px 15px 25px 15px;
+	
+	border:  4px orange solid;
+	list-style: none;
+	height: 160px;
+	width: 30%;	
+	text-align: justify;
+	padding: 15px;
+	padding-top: 22px;
+
+			font-family: "Calibri"
+
+
+
+}
+
+
+    	nav ul{
+			list-style: none;
+       	display: flex;
+
+        margin: auto;
+
+			
+		}
+       ul > li > a
+       {
+       	padding-right: 120px;
+        list-style: none;
+        text-decoration: none;
+        padding-left: 110px;
+        font-size: 18px;
+        color: #fff;
+        background:#C60808 ;
+        font-family: "arial black";
+        border:2px solid white;
+       }
+       nav{
+       	background:#0083FF ;
+       	height: 50px;
+width: 1310px;
+        margin: auto;
+
+       	display: flex;
+
+       }  
+
+
+ul > li > a:hover{
+	color: #ADADB2
+}
+
+header{
+		height: 130px;
+		background: #0068CA;
+	    border-radius: 15px 15px 0px 0px;
+	    
+	    width: 100%
+
+	}
+	header:hover {
+		color: black
+	}
+	
+		#ee{
+text-align: center;
+		font-size: 45px;
+		padding-top: 15px; 
+	    color : #E6E8EA;
+	    font-family:"Ravie";
+	    padding-left: 60px;
+         padding-top: 0px;
+        
+		
+		}
+		article {
+			padding: 10px;
+			display: flex;
+			margin: auto;
+		}
+		article section{
+			display: flex;
+		}
+		
+	article	section li {
+			padding: 10px;
+		}
